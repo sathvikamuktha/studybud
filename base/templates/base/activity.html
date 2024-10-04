@@ -19,6 +19,7 @@
         </div>
       </div>
 
+
       <div class="activities-page layout__body">
 
         {% for message in room_messages %}
@@ -34,6 +35,7 @@
               </p>
             </a>
 
+            
             {% if request.user == message.user %}
             <div class="roomListRoom__actions">
               <a href="{% url 'delete-message' message.id %}">
