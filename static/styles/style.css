@@ -3,15 +3,15 @@
 :root {
   --color-main: #71c6dd;
   --color-main-light: #e1f6fb;
-  --color-dark: #3f4156;
+  --color-dark: #000000;
   --color-dark-medium: #51546e;
   --color-dark-light: #696d97;
-  --color-light: #e5e5e5;
+  --color-light: #ffffff;
   --color-gray: #8b8b8b;
   --color-light-gray: #b2bdbd;
   --color-bg: #2d2d39;
-  --color-success: #5dd693;
-  --color-error: #fc4b0b;
+  --color-success: #5dd693b4;
+  --color-error: #fc4b0bb6;
 }
 
 /*========== base styles ==========*/
@@ -23,7 +23,6 @@
   padding: 0;
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
-  /* color: inherit; */
   font-size: inherit;
 }
 
@@ -1156,6 +1155,7 @@ a {
   color: var(--color-light-gray);
   line-height: 1.2;
 }
+
 
 .participant span {
   display: block;
