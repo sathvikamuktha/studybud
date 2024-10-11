@@ -1,0 +1,1 @@
+Study Buddy is a user-friendly website designed to facilitate collaborative learning. Created using Django, this platform was built by following a detailed YouTube tutorial, making it accessible for anyone looking to enhance their study experience. Users can connect, share resources, and support each other in their educational journeys.
